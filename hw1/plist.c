@@ -6,9 +6,7 @@
 
 struct plist_struct
 {
-	uint64_t len;
-	uint64_t size;
-	void **eles;
+	void *elements;
 };
 
 plist pl_new()
