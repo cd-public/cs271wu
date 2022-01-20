@@ -121,7 +121,7 @@ bool pl_remove(plist l, void *x);
 // printf("%d\n", pop(l, 1));
 // pl_print(l);
 // - should print "[1, 2]" then "2" then "[1]"
-void *pl_pop(plist l, void *x);
+void *pl_pop(plist l, uint64_t i);
 
 // 5: Clear
 // inputs: a plist l
@@ -158,7 +158,7 @@ uint64_t pl_index(plist l, void *x);
 // pl_append(l, val);
 // pl_count(l, val);
 // - should return 2
-bool pl_count(plist l, void *x);
+uint64_t pl_count(plist l, void *x);
 
 // ~: Sort
 // Extra credit for an O(n*log(n)) sort
