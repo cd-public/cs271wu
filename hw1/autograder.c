@@ -10,7 +10,7 @@ int main()
 	
 	// Test new and print
 	
-	printf("\nInital Test\n");
+	printf("\nInitial Test\n");
 	printf("Make new and print plist should print:\n");
 	printf("[]\n");
 	printf("Does print:\n");
