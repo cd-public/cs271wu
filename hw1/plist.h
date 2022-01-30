@@ -150,7 +150,7 @@ uint64_t pl_index(plist l, void *x);
 // 7: Count
 // inputs: a plist l, and a pointer to an memory object of any type x
 // outputs: The number of times x occurs in l
-// side effects: the first instance of x is removed from l
+// side effects: none
 // example:
 // plist l = pl_new();
 // uint64_t *val = 1;

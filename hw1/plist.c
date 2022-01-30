@@ -6,7 +6,8 @@
 
 struct plist_struct
 {
-	void *elements;
+	void *data;
+	plist next;
 };
 
 plist pl_new()
