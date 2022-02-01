@@ -115,8 +115,8 @@ int main()
 	// Test copy
 	
 	printf("\n9. Copy (10 pts)\n");
-	printf("Copying [1,1,3,1,3] then clearing, copy should be:\n");
-	printf("[1, 1, 3, 1, 3]\n");
+	printf("Copying [3,1,3,1,1] then clearing, copy should be:\n");
+	printf("[3, 1, 3, 1, 1]\n");
 	printf("Is found to be:\n");
 	l2 = pl_copy(l);
 	pl_clear(l);
