@@ -105,20 +105,21 @@ int main()
 	
 	// Test reverse
 	
-	printf("\n8. Count (10 pts)\n");
+	printf("\n8. Reverse (10 pts)\n");
 	printf("Reversing [1,1,3,1,3] should be:\n");
 	printf("[3, 1, 3, 1, 1]\n");
 	printf("Is found to be:\n");
 	pl_reverse(l);
 	pl_print(l);
 	
-	// Test reverse
+	// Test copy
 	
-	printf("\n8. Count (10 pts)\n");
+	printf("\n9. Copy (10 pts)\n");
 	printf("Copying [1,1,3,1,3] then clearing, copy should be:\n");
-	printf("[3, 1, 3, 1, 1]\n");
+	printf("[1, 1, 3, 1, 3]\n");
 	printf("Is found to be:\n");
 	l2 = pl_copy(l);
+	pl_clear(l);
 	pl_print(l2);
 		
 	return 0;
