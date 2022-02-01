@@ -119,6 +119,7 @@ int main()
 	printf("[1, 1, 3, 1, 3]\n");
 	printf("Is found to be:\n");
 	l2 = pl_copy(l);
+	pl_clear(l);
 	pl_print(l2);
 		
 	return 0;
