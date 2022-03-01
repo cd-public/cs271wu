@@ -52,7 +52,7 @@ Niceties:
 	*Should* error check everything
 		if (connect(...) < 0) { printf("connect() failed"; exit(-1); }
 		
-	Can cast function inputs to remove gcc errors
+	Can cast function inputs to remove gcc warnings
 		connect(sock, (struct sockaddr *)&serv_addr, sizeof(address))
 		
 	Compose "bla" and "sock+addr" into helper functions
