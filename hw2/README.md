@@ -10,4 +10,4 @@ TODO:
 
 Implement brot.c.  A sample output, a template file, and a Python implementation are provided.
 
-For advanced students, experiment with normalizing array values to produce crisper, more beautiful images.
+For advanced students, experiment with equalizing array values to produce crisper, more beautiful images.
