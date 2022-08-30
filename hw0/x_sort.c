@@ -6,41 +6,6 @@
 /* YOUR WORK HERE */
 
 // Input: An array of integers and its length
-// Output: 1 if the array is sorted least to greatest, 0 otherwise
-// Side Effect: None
-int is_sorted(int *arr, int len)
-{
-	int i = 0;
-	while (i < (len - 2))
-	{
-		if (arr[i] > arr[i+1])
-		{
-			return 0;
-		}
-		i++;
-	}
-	return 1;
-}
-
-
-// Input: An array, and a location i
-// Output: Zero in the case no swap, one in the case of swap
-// Side Effect: The elements i and i+1 of the array are swapped if 
-//              the ith element is greater than the i+1th element
-int swap(int *arr, int i)
-{
-	int temp;
-	if (arr[i] > arr[i+1])
-	{
-		temp = arr[i];
-		arr[i] = arr[i+1];
-		arr[i+1] = temp;
-		return 1;
-	}
-	return 0;
-}
-
-// Input: An array of integers and its length
 // Output: Zero in the case of no errors
 // Side Effect: The input array is sorted from least to greatest
 //              This creates the ret array
@@ -62,21 +27,6 @@ int *sort(int *arr, int len)
 	}
 	return ret;
 }
-
-// Input: An array of integers and its length
-// Output: Zero in the case of no errors
-// Side Effect: Print the array C style to console
-int print_arr(int *arr, int len)
-{
-	printf("{");
-	int i;
-	for (i = 0 ; i < len - 1 ; i++)
-	{
-		printf("%d, ", arr[i]);
-	}
-	printf("%d}\n", arr[i]);
-}
-
 
 /* END YOUR WORK */
 
