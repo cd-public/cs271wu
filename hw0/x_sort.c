@@ -11,21 +11,7 @@
 //              This creates the ret array
 int *sort(int *arr, int len) 
 {
-	int i, not_done = 1;
-	int *ret = (int *)malloc(10*sizeof(int));
-	for (i = 0 ; i < len - 1 ; i++)
-	{
-		ret[i] = arr[i];
-	}
-	while (not_done)
-	{
-		not_done = 0;
-		for (i = 0 ; i < len - 1 ; i++)
-		{
-			not_done += swap(ret, i);
-		}
-	}
-	return ret;
+	return *arr;
 }
 
 /* END YOUR WORK */
