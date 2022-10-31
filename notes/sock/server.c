@@ -6,7 +6,7 @@
 #define DOMAIN AF_INET6
 #define BUFF_SIZE 1024
 
-int main(int argc, char const *argv[]) 
+int main() 
 { 
     struct sockaddr_in6 address; 
     int sock = socket(DOMAIN, SOCK_STREAM, 0), opt = 1, addrlen = sizeof(address), connection ; 
