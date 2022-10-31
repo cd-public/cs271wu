@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
     connection = accept(sock, &address, &addrlen); 
     read(connection, buffer, BUFF_SIZE); 
 	
-    printf("%s\n",buffer ); 
+    printf("%s\n", buffer); 
 	
     return 0; 
 } 
