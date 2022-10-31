@@ -7,8 +7,8 @@
 
 int main(int argc, char const *argv[]) 
 { 
-	int sock = socket(DOMAIN, SOCK_STREAM, 0);
 	struct sockaddr_in6 address; 
+	int sock = socket(DOMAIN, SOCK_STREAM, 0);
 	
 	address.sin6_family = DOMAIN; 
 	address.sin6_port = htons(PORT); // "In practice, only the port field needs to be formatted with htons()"
