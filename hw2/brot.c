@@ -63,9 +63,10 @@ void get_colors(unsigned char ***base, int size, int iters)
 
 // OPTIONAL
 // That said, you images will look bad without this.
-// In Python, we had a hacked together solution to normalizing counts, now we formalize it
-// We accept a base, and normalize values to percentiles rather than counts
-void normalize(unsigned char ***base, int size)
+// The Python sample had a hacky solution.
+// We accept a base, and equalize values to percentiles rather than counts
+// You equalized images in CS 151 ImageShop.
+void equalize(unsigned char ***base, int size)
 {
 	return;
 }
