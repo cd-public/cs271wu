@@ -9,7 +9,7 @@
 // Side Effect: The input array is sorted from least to greatest
 void sort(int *arr, int len)
 {
-	print("hello\n") ;
+	printf("hello\n") ;
 	return;
 }
 
