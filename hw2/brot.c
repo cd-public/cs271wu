@@ -79,8 +79,6 @@ void make_brot(int size, int iters)
 	FILE *fp = fopen("brot.ppm", "wb"); /* b - binary mode */
 	fprintf(fp, "P6\n%d %d\n255\n", size, size);
 	static unsigned char color[3];
-
-	fflush(stdout);
 	for ( int x = 0 ; x < size ; x++ )
 	{
 		for ( int y = 0 ; y < size ; y++ )
