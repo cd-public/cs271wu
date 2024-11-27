@@ -8,6 +8,7 @@
 
 #define MIL 1000000
 #define DEBUG 0
+#define BSIZE 16
 
 void print_arr(int *arr, int len)
 {
@@ -64,9 +65,9 @@ void csort(unsigned *list, unsigned *work, int frnt, int back )
 int main()
 {
 	int i = 0 ;
-	size_t bsize = 16 ; 
+	size_t bsize = BSIZE ; 
 	unsigned list[MIL], work[MIL];
-	char *buf = (char *)malloc(bsize*sizeof(char)) ;
+	char buf[BSIZE] ;
 	FILE *fp ;
 	
 	fp = fopen("onem.txt", "r") ;
